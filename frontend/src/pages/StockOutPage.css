@@ -1,0 +1,71 @@
+.stock-out-container {
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px #0001;
+  padding: 32px;
+  margin: 60px auto 0 auto;
+}
+
+.stock-out-title {
+  color: #365256;
+  margin-bottom: 24px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.stock-out-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.stock-out-input {
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1.5px solid #D8CBC3;
+  font-size: 16px;
+  background: #f7f6f3;
+  color: #222;
+  transition: border 0.2s;
+}
+.stock-out-input:focus {
+  border-color: #365256;
+  outline: none;
+}
+
+.stock-out-button {
+  width: 100%;
+  padding: 12px;
+  background: #b00020;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background 0.2s;
+}
+.stock-out-button:disabled {
+  background: #e8a6a6;
+  color: #fff;
+  cursor: not-allowed;
+}
+.stock-out-button:hover:not(:disabled) {
+  background: #7a0015;
+}
+
+.stock-out-error {
+  color: #b00020;
+  margin-top: 12px;
+  text-align: center;
+}
+.stock-out-success {
+  color: #09DF52;
+  margin-top: 12px;
+  text-align: center;
+} 

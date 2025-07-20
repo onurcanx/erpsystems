@@ -1,0 +1,22 @@
+# Tüm metin dosyalarında satır sonu karakterlerini otomatik ayarla
+* text=auto
+
+# JavaScript, JSX, JSON, CSS, HTML dosyaları için satır sonu ayarı
+*.js   text eol=lf
+*.jsx  text eol=lf
+*.json text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+
+# SVG ve diğer XML tabanlı dosyalar için
+*.svg  text eol=lf
+
+# Resim ve binary dosyalar için (asla dönüştürülmesin)
+*.png  binary
+*.ico  binary
+
+# SQL dosyaları için satır sonu ayarı
+*.sql  text eol=lf
+
+# Markdown dosyaları için
+*.md   text eol=lf
